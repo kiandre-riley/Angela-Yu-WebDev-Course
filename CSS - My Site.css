@@ -1,0 +1,32 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  background-color:black;
+}
+
+.topDiv{
+  text-align: center;
+  color:white;
+  background-color:#22577E;
+  width:200px;
+  height:200px;
+  border:10px solid white;
+  padding:20px;
+}
+
+.middleDiv{
+  background-color: #4C3F91;
+  width:200px;
+  height:200px;
+  border:20px solid white;
+}
+
+.bottomDiv{
+  background-color: #3E8E7E;
+  width:200px;
+  height:200px;
+  border:10px solid white;
+}
