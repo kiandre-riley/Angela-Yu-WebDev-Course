@@ -55,16 +55,30 @@ h2{
 /* Title Image */
 
 #dogphoto{
-  width:60%;
-  transform: rotate(0.07turn);
+  width:20%;
+  transform: rotate(25deg);
+  position:absolute;
+  z-index: 0;
   
   
+}
+
+@media (max-width:1202px){
+  #dogphoto{
+    transform:rotate(0);
+    position:static;
+    width:60%
+
+  }
 }
 
 /* Testimonials/Guaranteed Section  */
 
 #features{
   padding:7% 15%;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
 }
 
 .feature-section{
@@ -137,4 +151,37 @@ h2{
 
 #pricing>div{
   text-align:center;
+}
+
+/* Call to Action  */
+
+#cta{
+  background-color: #FF4c68;
+  text-align: center;
+  padding:7% 15%;
+
+}
+
+#cta>h3{
+  font-family:"Montserrat";
+  font-weight:900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:#fff;
+
+
+}
+
+/* Footer */
+
+#footer{
+  background-color: #fff;
+  color:gray;
+  text-align: center;
+  padding:7% 15%;
+}
+
+#footer>div>i{
+  color:black;
+  margin:20px 10px;
 }
